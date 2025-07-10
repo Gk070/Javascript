@@ -67,12 +67,36 @@
 
 // console.log(circumference);
 
-let radius, circumference;
-const PI = 3.14;
+// let radius, circumference;
+// const PI = 3.14;
 
-document.getElementById("submit").onclick = function() {
-    radius = document.getElementById("rad").value;
-    radius = Number(radius)
-    circumference = 2 * radius * PI;
-    document.getElementById("per").textContent = `Perimeter is: ${circumference}`;
-}
+// document.getElementById("submit").onclick = function() {
+//     radius = document.getElementById("rad").value;
+//     radius = Number(radius)
+//     circumference = 2 * radius * PI;
+//     document.getElementById("per").textContent = `Perimeter is: ${circumference}`;
+// }
+
+// Math Functions
+
+// let x = 45;
+// let y = 3;
+// let z;
+
+// z = Math.round(x);
+// z = Math.ceil(x);
+// z = Math.floor(x);
+// z = Math.trunc(x);
+// z = Math.PI
+// z = Math.E
+// z = Math.pow(x, y);
+// z = Math.sqrt(x);
+// z = Math.log(10);
+// z = Math.sin(x);
+// z = Math.cos(x);
+// z = Math.tan(x);
+// z = Math.abs(x);
+// z = Math.sign(x);
+// z = Math.max(x, y);
+// z = Math.min(x, y);
+// console.log(z);
