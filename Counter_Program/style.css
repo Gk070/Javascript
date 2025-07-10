@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#counter{
+    font-size: 10em;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: 100;
+}
+
+#buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.but{
+    padding: 5px 10px;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(55, 181, 235);
+    transition: 0.25s;
+    border-radius: 5px;
+}
+
+.but:hover{
+    background-color: rgb(36, 114, 247);;
+}
