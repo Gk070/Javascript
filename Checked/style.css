@@ -1,0 +1,10 @@
+body{
+    font-size: 2em;
+    font-family: Verdana;
+    margin-left: 20px;
+}
+
+#submit{
+    margin-top: 20px;
+    font-size: 1em;
+}
