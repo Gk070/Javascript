@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="icon" href="celsius_and_fahrenheit-512.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>TEMPRATURE CONVERTION</h1>
+        <input type="number" id="textBox" value="0">
+        <br>
+        <input type="radio" name="unit" id="toFarenheit">
+        <label for="toFarenheit">Celsius ➡️ Farenheit</label>
+        <br>
+        <input type="radio" name="unit" id="toCelsius">
+        <label for="toCelsius">Farenheit ➡️ Celsius</label>
+        <br>
+        <input type="button" onclick="convert()" id="button" value="submit">
+        <p id="result"></p>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
